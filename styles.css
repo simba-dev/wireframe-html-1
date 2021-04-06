@@ -38,7 +38,7 @@ ul {
     display: flex;
     gap: 10px;
     background-color: #4b4b4d;
-
+    align-items: center;
 }
 
 .circles ul li {
@@ -48,6 +48,7 @@ ul {
     -moz-border-radius: 20px;
     border-radius: 20px;
     background:  #d2d3d5;
+    text-align: center;
   }
 .nav-menu ul{
     display: flex;
