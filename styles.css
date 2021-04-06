@@ -2,9 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
     background-color: #e6e7e9;
 }
-
 ul {
     list-style: none;
 }
@@ -16,16 +18,17 @@ ul {
 }
 .header{
     height: 120px;
-    background-color: #4b4b4d;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url('img/wp2564226.png');
 }
 .title{
     width:200px;
     height: 60px;
-    background-color: #d2d3d5;
+
     margin-left: 30px;
+    
 
 }
 
@@ -37,7 +40,6 @@ ul {
 .circles ul{
     display: flex;
     gap: 10px;
-    background-color: #4b4b4d;
     align-items: center;
 }
 
@@ -49,6 +51,8 @@ ul {
     border-radius: 20px;
     background:  #d2d3d5;
     text-align: center;
+    font-size: 25px; 
+    padding-top: 8px;
   }
 .nav-menu ul{
     display: flex;
@@ -59,24 +63,28 @@ ul {
     width: 200px;
     margin: 21px 0px;
     border: 1px solid #e6e7e9;
+    text-align: center;
+    padding-top: 15px;
 
 }
 .blocks{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .blocks div{
     background-color: #858688;
     height: 191px;
-    width: 329px;   
+    width: 329px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .main-block{
     margin: 25px 0px;
     background-color: #858688;
     width: 1000px;
-    height: 453px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -85,7 +93,28 @@ ul {
 .inside-block{
     background-color: #4b4b4d;
     width: 600px;
-    height: 453px;
+    
+    padding-top: 40px; 
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.inside-block h2{
+    color: white;
+    font-family: 'Dela Gothic One',cursive;
+    padding-bottom: 10px;
+}
+.inside-block p{
+    color: #d2d3d5;
+    padding-bottom: 40px;
+}
+.inside-block a{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inside-block img{
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
 }
 
 footer{
@@ -93,6 +122,9 @@ footer{
     margin-bottom: 21px ;
     width: 1000px;
     height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
 }
 
 
